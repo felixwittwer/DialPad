@@ -2809,7 +2809,7 @@
 				)
 			)
 		)
-		(property "Value" "XIAO-RP2350-DIP"
+		(property "Value" "XIAO-RP2040-DIP"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2862,36 +2862,6 @@
 			(uuid "f16698a3-7a91-4a66-ba6f-95e4357a717d")
 		)
 		(fp_line
-			(start -4.495 -10.541)
-			(end -4.491272 -11.451272)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "813f74e9-868d-4ce4-830c-658ce51a27f1")
-		)
-		(fp_line
-			(start -3.991272 -11.951)
-			(end 4.004 -11.951)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "53898761-5a57-4ad8-b2d9-4748f9e74f10")
-		)
-		(fp_line
-			(start 4.504 -11.451)
-			(end 4.504 -10.541)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1ac25dfa-279d-489a-8941-a6f2bec611e9")
-		)
-		(fp_line
 			(start 6.985 -10.541)
 			(end -6.985 -10.541)
 			(stroke
@@ -2932,28 +2902,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "3996cd07-72ec-477d-9ef6-0ca09057e359")
-		)
-		(fp_arc
-			(start -4.491272 -11.451272)
-			(mid -4.344728 -11.80464)
-			(end -3.991272 -11.951)
-			(stroke
-				(width 0.127)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "14455cf2-5996-4a4f-96ff-8d844cdb9ae9")
-		)
-		(fp_arc
-			(start 4.004 -11.951)
-			(mid 4.357553 -11.804553)
-			(end 4.504 -11.451)
-			(stroke
-				(width 0.127)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "e050a0c7-3b1d-4dc4-a332-38ee9b440540")
 		)
 		(fp_arc
 			(start 6.985 -10.541)
@@ -3052,7 +3000,7 @@
 			(net 22 "BTN")
 			(pinfunction "GPIO26/D0/ADC0")
 			(pintype "passive")
-			(uuid "1b4a06c5-a99f-47ec-9466-4a25662f9634")
+			(uuid "403ca514-5c65-40c8-b483-0f3bd2baeb66")
 		)
 		(pad "2" smd roundrect
 			(at -8.455 -5.08 180)
@@ -3074,7 +3022,7 @@
 			(net 21 "ROTB")
 			(pinfunction "GPIO27/D1/ADC1")
 			(pintype "passive")
-			(uuid "013b6f92-b84f-41a3-b6b2-1a3c232854c1")
+			(uuid "99a76cdb-da3d-4ae4-b6ba-98aca85e8420")
 		)
 		(pad "3" smd roundrect
 			(at -8.455 -2.54 180)
@@ -3096,7 +3044,7 @@
 			(net 20 "ROTA")
 			(pinfunction "GPIO28/D2/ADC2")
 			(pintype "passive")
-			(uuid "80764927-c987-4990-8ec3-1c2a1a0aae6f")
+			(uuid "408578b7-9592-4a13-8dcc-0a6e8d5b3528")
 		)
 		(pad "4" smd roundrect
 			(at -8.455 0 180)
@@ -3118,7 +3066,7 @@
 			(net 10 "ROW3")
 			(pinfunction "GPIO5/D3/SPI_CS")
 			(pintype "passive")
-			(uuid "31e8b137-08a3-4f7a-becc-326ad2783924")
+			(uuid "7d558a9d-c63d-4cab-93e2-61fce98d86e8")
 		)
 		(pad "5" smd roundrect
 			(at -8.455 2.54 180)
@@ -3140,7 +3088,7 @@
 			(net 14 "SDA")
 			(pinfunction "GPIO6/D4/SDA1")
 			(pintype "passive")
-			(uuid "0d1d0522-0c6e-4adc-9059-f0e79a85d374")
+			(uuid "009cacf3-d767-4d5f-b276-941184b823b6")
 		)
 		(pad "6" smd roundrect
 			(at -8.455 5.08 180)
@@ -3162,7 +3110,7 @@
 			(net 13 "SCL")
 			(pinfunction "GPIO7/D5/SCL1")
 			(pintype "passive")
-			(uuid "1206ca8c-6027-455d-98a3-40124fd53eac")
+			(uuid "400c0f1d-ee5b-452c-af5c-3d0e3fdcf6ca")
 		)
 		(pad "7" smd roundrect
 			(at -8.455 7.62 180)
@@ -3184,7 +3132,7 @@
 			(net 6 "ROW2")
 			(pinfunction "GPIO0/D6/TX0")
 			(pintype "passive")
-			(uuid "fc38ee5e-c129-49d6-90cf-8f4450e93335")
+			(uuid "8c8becda-0c5b-4164-ba83-dc147028cd31")
 		)
 		(pad "8" thru_hole circle
 			(at 7.62 7.62)
@@ -3206,7 +3154,7 @@
 			(pinfunction "GPIO1/D7/RX0")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "0e4d60fb-d85b-4b6b-9a07-c7d33d5005e8")
+			(uuid "fa29152e-7761-41b5-867f-a8794bfc704f")
 		)
 		(pad "9" thru_hole circle
 			(at 7.62 5.08)
@@ -3228,7 +3176,7 @@
 			(pinfunction "GPIO2/D8/SPI0_SCK")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "ad64170c-e8f6-40b7-b01c-5bf8cdcff973")
+			(uuid "59f59806-b545-48f0-8e69-f30e44f69d67")
 		)
 		(pad "10" thru_hole circle
 			(at 7.62 2.54)
@@ -3250,7 +3198,7 @@
 			(pinfunction "GPIO4/D9/SPI_MISO")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "38462d72-23f2-4c28-a4ec-80b488190077")
+			(uuid "f18a7d7b-1005-4ea0-9498-33d55d07fcd7")
 		)
 		(pad "11" thru_hole circle
 			(at 7.62 0)
@@ -3272,7 +3220,7 @@
 			(pinfunction "GPIO3/D10/SPI0_MOSI")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "e11b6fc1-a0de-47db-962a-57d508e13a16")
+			(uuid "098c1ac2-4627-4c5c-bbb4-111d50710e4c")
 		)
 		(pad "12" thru_hole circle
 			(at 7.62 -2.54)
@@ -3294,7 +3242,7 @@
 			(pinfunction "3V3")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "8c236af7-60a2-472e-9236-e83b0c811f28")
+			(uuid "609078f5-a39c-4975-8b81-1e40edc7adf8")
 		)
 		(pad "13" thru_hole circle
 			(at 7.62 -5.08)
@@ -3316,7 +3264,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "8b713b3f-6dec-4f6d-9e05-c69d7b758184")
+			(uuid "92d5c711-ffd7-4a9d-afff-5c0d5aa5d410")
 		)
 		(pad "14" thru_hole circle
 			(at 7.62 -7.62)
@@ -3338,7 +3286,7 @@
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "b52e602e-50cc-4153-bbdb-8bd665887cdd")
+			(uuid "d6207a6f-be49-4ed0-907d-af9c33a833bb")
 		)
 		(embedded_fonts no)
 		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/XIAO-nRF52840 v15.step"

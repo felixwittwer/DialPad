@@ -4219,7 +4219,7 @@
 				)
 			)
 		)
-		(property "Value" "XIAO-RP2350-DIP"
+		(property "Value" "XIAO-RP2040-DIP"
 			(at 148.59 50.8 0)
 			(effects
 				(font

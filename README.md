@@ -45,6 +45,10 @@ Just a very cool animation on how to assemble the DialPad.
 
 ## Firmware
 
+KMK with support for the dial and OLED screen. I will maybe further develop the firmware with macros and layers which will be shown on the screen but for now ith will be a numpad with a media controll dial.
+
+- KMK
+
 ## BOM
 
 - 9x Cherry MX Switches
